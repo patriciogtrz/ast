@@ -127,6 +127,8 @@ def main():
             )
             
             # Print the results
+            print("")
+            print("=" * 30)
             print(f"\nReference drug: {reference_drug}")
             print(f"Reference dose: {reference_dose} mg")
             print(f"Target drug: {target_drug}")
