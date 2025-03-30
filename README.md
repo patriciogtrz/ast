@@ -1,7 +1,7 @@
 # Antipsychotic Switching Tool
 
 Simple CLI D2-antagonist switching tool, currently supporting:
-- Dose conversion
+- Dose conversion (information by [The American Association of Psychiatric Pharmacists (AAPP)]).
 
 ## Coming Soon
 - Half-life information
@@ -9,18 +9,14 @@ Simple CLI D2-antagonist switching tool, currently supporting:
 - Switching Taper
 - CSV integration
 
-Dose conversion information by [The American Association of Psychiatric Pharmacists (AAPP)].
-
-## Tech
-
-- [Python] - Python is a programming language that lets you work quickly and integrate systems more effectively!
-
-
-Open source with a [public repository] on GitHub.
-
 ## Installation
 
 AST requires [Python] to run.
+
+```sh
+cd ast
+python ast.py
+```
 
 ## License
 [GNU General Public License v3.0]
