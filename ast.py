@@ -1,4 +1,4 @@
-#!/bin/bash python python3
+#!/bin/bash/ python python3
 
 # Antipsychotic Switching Tool
 # based on the information of The American Association of Psychiatric Pharmacists (AAPP): https://aapp.org/guideline/essentials/antipsychotic-dose-equivalents
