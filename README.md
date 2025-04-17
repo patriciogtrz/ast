@@ -2,9 +2,9 @@
 
 Simple CLI D2-antagonist switching tool, currently supporting:
 - Dose conversion (information by [The American Association of Psychiatric Pharmacists (AAPP)]).
+- Half-life and CYP450 metabolsim enzymes (information by [DRUGBANK]).
 
 ## Coming Soon
-- Half-life information
 - Depot doses
 - Switching Taper
 - CSV integration
@@ -25,5 +25,6 @@ python ast.py
 
    [The American Association of Psychiatric Pharmacists (AAPP)]: <https://aapp.org/guideline/essentials/antipsychotic-dose-equivalents>
    [Python]: <https://www.python.org/>
+   [DRUGBANK]: <https://go.drugbank.com/>
    [public repository]: https://github.com/patriciogtrz/ast
    [GNU General Public License v3.0]: <https://choosealicense.com/licenses/gpl-3.0/>
