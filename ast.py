@@ -11,51 +11,69 @@ DRUGS = {
         "defined_daily_dose": 0.8,
         "effective_dose_95": 0.42,
         "minimumn_effective_dose": 0.53,
+        "half-life": "Oral: 14.5-36.7 hours; IM: 20 hours",
+        "CYP450": "2D6, 3A4"
     },
     "Chlorpromazine": {
         "generation": "first generation",
         "defined_daily_dose": 30,
+        "half-life": "Oral: 30 hours",
+        "CYP450": "2D6, 1A2, 3A4",
     },
     "Aripiprazole": {
         "generation": "second generation",
         "defined_daily_dose": 1.5,
         "effective_dose_95": 0.76,
         "minimumn_effective_dose": 1.33,
+        "half-life": "Oral: 75 hours; Metabolite: 94 hours",
+        "CYP450": "2D6, 3A4",
     },
     "Clozapine": {
         "generation": "second generation",
         "defined_daily_dose": 30,
         "minimumn_effective_dose": 40,
+        "half-life": "75 mg: 4-12 hours, 100 mg BID: 4-66 hours",
+        "CYP450": "1A2, 2D6, 3A4",
     },
     "Olanzapine": {
         "generation": "second generation",
         "defined_daily_dose": 1,
         "effective_dose_95": 1,
         "minimumn_effective_dose": 1,
+        "half-life": "21-54 hours",
+        "CYP450": "1A2, 2D6",
     },
     "Paliperidone": {
         "generation": "second generation",
         "defined_daily_dose": 0.6,
         "effective_dose_95": 0.88,
         "minimumn_effective_dose": 0.40,
+        "half-life": "23 hours",
+        "CYP450": "2D6, 3A4",
     },
     "Quetiapine": {
         "generation": "second generation",
         "defined_daily_dose": 40,
         "effective_dose_95": 31.78,
         "minimumn_effective_dose": 20,
+        'half-life': "6-7 hours",
+        "CYP450": "3A4, 2D6",  
     },
     "Risperidone": {
         "generation": "second generation",
         "defined_daily_dose": 0.5,
         "effective_dose_95": 0.41,
         "minimumn_effective_dose": 0.27,
+        "half-life": "3-20 hours",
+        "CYP450": "2D6",
     },
     "Ziprasidone": {
         "generation": "second generation",
         "defined_daily_dose": 8,
         "effective_dose_95": 12.29,
         "minimumn_effective_dose": 5.33,
+        "half-life": "6-7 hours",
+        "CYP450": "3A4",
     },
 }
 
@@ -131,12 +149,15 @@ def main():
             print("=" * 30)
             print(f"\nReference drug: {reference_drug}")
             print(f"Reference dose: {reference_dose} mg")
-            print(f"Target drug: {target_drug}")
-            print(f"\nTarget defined daily dose: {target_defined_daily_dose} mg")
+            print(f"\nTarget drug: {target_drug}")
+            print(f"Target defined daily dose: {target_defined_daily_dose} mg")
+            print(f"Target defined half-life: {DRUGS[target_drug]['half-life']}")
+            print(f"Target defined CYP450 enzymes: {DRUGS[target_drug]['CYP450']}")
+            print("\nConversion results:")
             
             # Special error handling for missing values
             if target_effective_dose_95 is not None:
-                print(f"Target 95% effective dose 95: {target_effective_dose_95} mg")
+                print(f"Target 95% effective dose: {target_effective_dose_95} mg")
             else:
                 print("Target 95% effective dose: Not available")
             if target_minimumn_effective_dose is not None:
