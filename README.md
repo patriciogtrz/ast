@@ -9,7 +9,7 @@ Simple CLI D2-antagonist switching tool, currently supporting:
 - Switching Taper
 - CSV integration
 
-## Installation
+## Running
 
 AST requires [Python] to run.
 
