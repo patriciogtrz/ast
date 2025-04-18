@@ -2,6 +2,7 @@
 
 # Antipsychotic Switching Tool
 # based on the information of The American Association of Psychiatric Pharmacists (AAPP): https://aapp.org/guideline/essentials/antipsychotic-dose-equivalents
+# and DRUGBANK: https://go.drugbank.com/
 
 
 # Drugs and doses
