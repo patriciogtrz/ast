@@ -21,13 +21,13 @@ python ast.py (path to csv)
 ## CSV File
 
 Required rows:
-- Drug
-- generation
-- defined_daily_dose
-- effective_dose_95
-- minimum_effective_dose
-- half-life
-- CYP450
+- Drug (str)
+- generation (str)
+- defined_daily_dose (float)
+- effective_dose_95 (float)
+- minimum_effective_dose (float)
+- half-life (str)
+- CYP450 (str)
 
 ## License
 [GNU General Public License v3.0]
