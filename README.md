@@ -3,11 +3,11 @@
 Simple CLI D2-antagonist switching tool, currently supporting:
 - Dose conversion (information by [The American Association of Psychiatric Pharmacists (AAPP)]).
 - Half-life and CYP450 metabolsim enzymes (information by [DRUGBANK]).
+- CSV integration (must use standard columns).
 
 ## Coming Soon
 - Depot doses
 - Switching taper
-- CSV integration
 
 ## Running
 
@@ -15,8 +15,19 @@ AST requires [Python] to run.
 
 ```sh
 cd ast
-python ast.py
+python ast.py (path to csv)
 ```
+
+## CSV File
+
+Required rows:
+- Drug
+- generation
+- defined_daily_dose
+- effective_dose_95
+- minimum_effective_dose
+- half-life
+- CYP450
 
 ## License
 [GNU General Public License v3.0]
