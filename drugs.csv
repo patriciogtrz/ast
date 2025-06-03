@@ -1,0 +1,10 @@
+Drug,generation,defined_daily_dose,effective_dose_95,minimum_effective_dose,half-life,CYP450
+Haloperidol,first generation,0.8,0.42,0.53,"Oral: 14.5-36.7 hours; IM: 20 hours","2D6, 3A4"
+Chlorpromazine,first generation,30,,,Oral: 30 hours,"2D6, 1A2, 3A4"
+Aripiprazole,second generation,1.5,0.76,1.33,"Oral: 75 hours; Metabolite: 94 hours","2D6, 3A4"
+Clozapine,second generation,30,,40,"75 mg: 4-12 hours, 100 mg BID: 4-66 hours","1A2, 2D6, 3A4"
+Olanzapine,second generation,1,1,1,21-54 hours,"1A2, 2D6"
+Paliperidone,second generation,0.6,0.88,0.40,23 hours,"2D6, 3A4"
+Quetiapine,second generation,40,31.78,20,"6-7 hours","3A4, 2D6"
+Risperidone,second generation,0.5,0.41,0.27,"3-20 hours","2D6"
+Ziprasidone,second generation,8,12.29,5.33,"6-7 hours","3A4"
