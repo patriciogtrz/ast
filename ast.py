@@ -51,7 +51,7 @@ def conversion(reference_drug, reference_dose, target_drug):
 def main():
     # Check if the CSV file path is provided
     if len(sys.argv) < 2:
-        print("\nUsage: python ast4.py <path_to_csv_file>\n")
+        print("\nUsage: python ast.py <path_to_csv_file>\n")
         return
 
     # Load the drugs dictionary from the provided CSV file
