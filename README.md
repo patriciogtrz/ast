@@ -6,8 +6,8 @@ Simple CLI D2-antagonist switching tool, currently supporting:
 - CSV integration (must use standard columns).
 
 ## Coming Soon
-- Depot doses
-- Switching taper
+- Depot doses.
+- Switching taper.
 
 ## Running
 
